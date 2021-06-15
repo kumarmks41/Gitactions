@@ -5,3 +5,5 @@ on:
     branches: [ main ]
   steps:
     - uses: actions/checkout@v2
+    - name: Test
+      run: test -f ./rainbow-fruit.md
