@@ -1,0 +1,13 @@
+name: Hello World
+
+on:
+  pull_request:
+    branches: [ main ]
+ 
+ jobs:
+   steps: 
+   - name: run echo
+     run: |
+       echo “Hello”
+       echo “World”.
+    
